@@ -11,6 +11,7 @@
   --color-body-darker: #5c5577;
   --color-border: #ccc;
   --border-radius: 30px;
+  --color-body: #99a37b;
 }
 
 *,
@@ -33,7 +34,7 @@ body {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 2.4rem;
   line-height: 1.5;
-  color: var(--color-body);
+  background: var(--color-body);
 }
 
 h1,
@@ -53,9 +54,7 @@ h5 {
   flex-wrap: wrap;
   padding: 0 1rem;
   align-items: center;
-  text-decoration: none;
   margin: 0;
-  text-decoration-thickness: none;
 }
 
 .nav__list {
@@ -68,11 +67,13 @@ h5 {
   padding: 0.5rem 2rem;
   border-bottom: 1px solid #222;
   justify-content: left;
+  text-decoration: none;
 }
 
 .nav__item > a {
   color: #d2d0db;
   transition: color 0.3s;
+  text-decoration: none;
 }
 
 .nav__item > a:hover {
@@ -164,6 +165,7 @@ h5 {
 .footer a {
   color: white;
   transition: color 0.3s;
+  text-decoration: none;
 }
 
 .footer a:hover {
